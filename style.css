@@ -1,0 +1,83 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),
+    url(./assets/images/bonham.jpeg) center;
+
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#site-title {
+  color: #fff;
+  max-width: 640px;
+  margin: 0 auto;
+}
+#main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem;
+}
+
+#keys-first-row {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+#keys-second-row {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.key {
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: DarkSlateGray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px Black;
+  width: 100px;
+  height: 100px;
+  margin: 0.75rem;
+  transition: 0.1s;
+}
+
+.key:hover {background-color: #486969}
+
+.playing {
+  background-color: #486969;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+.key-letter {
+  display: block;
+  margin: 0;
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: LightGray;
+  padding-left: 0.4rem;
+  padding-top: 0.4rem;
+}
+
+.drum-type {
+  display: block;
+  margin: 0;
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+  padding-top: 0.650rem;
+  letter-spacing: 0.04rem;
+  font-size: 0.75rem;
+}

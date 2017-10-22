@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JS Drum Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bonham Drum Machine">
+    <meta name="author" content="Juan Fabrega">
+    <meta name="description" content="John Bonham drum machine built in vanilla JS">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+
+  <body>
+
+    <div id="main-container">
+      <div id="site-title">
+        <h3>John Bonham Drum Machine</h3>
+        <p>Use your keyboard to play like Bonzo</p>
+      </div>
+
+      <div id="keys-first-row">
+        <div data-key="65" class="key">
+          <p class="key-letter">A</p>
+          <div class="drum-type">
+            <p>hat closed</p>
+          </div>
+        </div>
+        <div data-key="83" class="key">
+          <p class="key-letter">S</p>
+          <div class="drum-type">
+            <p>hat open</p>
+          </div>
+        </div>
+        <div data-key="68" class="key">
+          <p class="key-letter">D</p>
+          <div class="drum-type">
+            <p>snare</p>
+          </div>
+        </div>
+      </div>
+      <div id="keys-second-row">
+        <div data-key="90" class="key">
+          <p class="key-letter">Z</p>
+          <div class="drum-type">
+            <p>kick</p>
+          </div>
+        </div>
+        <div data-key="88" class="key">
+          <p class="key-letter">X</p>
+          <div class="drum-type">
+            <p>tom</p>
+          </div>
+        </div>
+        <div data-key="67" class="key">
+          <p class="key-letter">C</p>
+          <div class="drum-type">
+            <p>ride</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== AUDIO SOURCE FILES MAPPED WITH KEY CODES ===== -->
+    <audio data-key="90" src="./assets/sounds/John Bonham Kick HH combo 03.wav"></audio>
+    <audio data-key="65" src="./assets/sounds/John Bonham HH 01.wav"></audio>
+    <audio data-key="83" src="./assets/sounds/John Bonham Open HH 01.wav"></audio>
+    <audio data-key="68" src="./assets/sounds/John Bonham Snare 03.wav"></audio>
+    <audio data-key="88" src="./assets/sounds/John Bonham Hi Tom 01.wav"></audio>
+    <audio data-key="67" src="./assets/sounds/John Bonham Ride Cymbal 01.wav"></audio>
+
+
+
+  </body>
+</html>
