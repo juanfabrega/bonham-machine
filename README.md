@@ -1,6 +1,8 @@
 # Bonham Drum Machine
 A drum machine with John Bonham samples. Built with vanilla JS.
 
+See it in action here: https://juanfabrega.github.io/bonham-machine/
+
 # Background
 This project is part of the Javascript 30 developer challenge to build 30 small apps in 30 days using ONLY vanilla JS, HTML, and CSS. No frameworks and no boilerplate. 
 
